@@ -9,20 +9,20 @@ import * as fs from "fs" // importar a biblioteca para manipular os arquivos txt
 
 // criar constantes para ler os dados do aluno: nome, serie e faltas
     const nome = readline.question("Digite o seu nome: "); // criar constante com o nome e falta
-    const serie = readline.questionInt("Digite a sua série: ");
-    const faltas = readline.questionInt("Quantas faltas você teve?? (maximo: 100) "); //usar questionINT para armazenar apenas numeros
+    const serie = readline.questionInt("Digite a sua serie: ");
+    const faltas = readline.questionInt("Quantas faltas voce teve?? (maximo: 100) "); //usar questionINT para armazenar apenas numeros
 
 
 //Requisitando as notas da matéria de matemática e calculando a media
 
-    const atv1_matematica: number  = readline.questionFloat("Digite a nota da primeira atividade de matemática: "); //colocar float por poder ser numero com virgula
-    const atv2_matematica: number  = readline.questionFloat("Digite a nota da segunda atividade de matemática: "); 
-    const atv3_matematica: number  = readline.questionFloat("Digite a nota da terceira atividade de matemática: "); 
-    const prova1_matematica: number = readline.questionFloat("Digite a nota da primeira prova de matemática: ");
-    const prova2_matematica: number = readline.questionFloat("Digite a nota da segunda prova de matemática: ");
-    const trabalho1_matematica: number = readline.questionFloat("Digite a nota do primeiro trabalho de matemática: ");
-    const trabalho2_matematica: number = readline.questionFloat("Digite a nota do segundo trabalho de matemática: ");
-    const trabalho3_matematica: number = readline.questionFloat("Digite a nota do terceiro trabalho de matemática: ");
+    const atv1_matematica: number  = readline.questionFloat("Digite a nota da primeira atividade de matematica: "); //colocar float por poder ser numero com virgula
+    const atv2_matematica: number  = readline.questionFloat("Digite a nota da segunda atividade de matematica: "); 
+    const atv3_matematica: number  = readline.questionFloat("Digite a nota da terceira atividade de matematica: "); 
+    const prova1_matematica: number = readline.questionFloat("Digite a nota da primeira prova de matematica: ");
+    const prova2_matematica: number = readline.questionFloat("Digite a nota da segunda prova de matematica: ");
+    const trabalho1_matematica: number = readline.questionFloat("Digite a nota do primeiro trabalho de matematica: ");
+    const trabalho2_matematica: number = readline.questionFloat("Digite a nota do segundo trabalho de matematica: ");
+    const trabalho3_matematica: number = readline.questionFloat("Digite a nota do terceiro trabalho de matematica: ");
 
 //Média em matemática
 const media_matematica: number = ( //calcular a media somando as notas e dividindo pelo numero total (8)
@@ -37,14 +37,14 @@ const media_matematica: number = ( //calcular a media somando as notas e dividin
     ) / 8;
 
 //nota e media em portugues
-    const atv1_portugues: number = readline.questionFloat("Digite a nota da primeira atividade de Português: ");
-    const atv2_portugues: number = readline.questionFloat("Digite a nota da segunda atividade de Português: ");
-    const atv3_portugues: number = readline.questionFloat("Digite a nota da terceira atividade de Português: ");
-    const prova1_portugues: number = readline.questionFloat("Digite a nota da primeira prova de Português: ");
-    const prova2_portugues: number = readline.questionFloat("Digite a nota da segunda prova de Português: ");
-    const trabalho1_portugues: number = readline.questionFloat("Digite a nota do primeiro trabalho de Português: ");
-    const trabalho2_portugues: number = readline.questionFloat("Digite a nota do segundo trabalho de Português: ");
-    const trabalho3_portugues: number = readline.questionFloat("Digite a nota do terceiro trabalho de Português: ");
+    const atv1_portugues: number = readline.questionFloat("Digite a nota da primeira atividade de Portugues: ");
+    const atv2_portugues: number = readline.questionFloat("Digite a nota da segunda atividade de Portugues: ");
+    const atv3_portugues: number = readline.questionFloat("Digite a nota da terceira atividade de Portugues: ");
+    const prova1_portugues: number = readline.questionFloat("Digite a nota da primeira prova de Portugues: ");
+    const prova2_portugues: number = readline.questionFloat("Digite a nota da segunda prova de Portugues: ");
+    const trabalho1_portugues: number = readline.questionFloat("Digite a nota do primeiro trabalho de Portugues: ");
+    const trabalho2_portugues: number = readline.questionFloat("Digite a nota do segundo trabalho de Portugues: ");
+    const trabalho3_portugues: number = readline.questionFloat("Digite a nota do terceiro trabalho de Portugues: ");
 
     const media_portugues: number = (
         atv1_portugues +
@@ -79,14 +79,14 @@ const media_matematica: number = ( //calcular a media somando as notas e dividin
     ) / 8;
 
 //historia
-    const atv1_historia: number = readline.questionFloat("Digite a nota da primeira atividade de História: ");
-    const atv2_historia: number = readline.questionFloat("Digite a nota da segunda atividade de História: ");
-    const atv3_historia: number = readline.questionFloat("Digite a nota da terceira atividade de História: ");
-    const prova1_historia: number = readline.questionFloat("Digite a nota da primeira prova de História: ");
-    const prova2_historia: number = readline.questionFloat("Digite a nota da segunda prova de História: ");
-    const trabalho1_historia: number = readline.questionFloat("Digite a nota do primeiro trabalho de História: ");
-    const trabalho2_historia: number = readline.questionFloat("Digite a nota do segundo trabalho de História: ");
-    const trabalho3_historia: number = readline.questionFloat("Digite a nota do terceiro trabalho de História: ");
+    const atv1_historia: number = readline.questionFloat("Digite a nota da primeira atividade de Historia: ");
+    const atv2_historia: number = readline.questionFloat("Digite a nota da segunda atividade de Historia: ");
+    const atv3_historia: number = readline.questionFloat("Digite a nota da terceira atividade de Historia: ");
+    const prova1_historia: number = readline.questionFloat("Digite a nota da primeira prova de Historia: ");
+    const prova2_historia: number = readline.questionFloat("Digite a nota da segunda prova de Historia: ");
+    const trabalho1_historia: number = readline.questionFloat("Digite a nota do primeiro trabalho de Historia: ");
+    const trabalho2_historia: number = readline.questionFloat("Digite a nota do segundo trabalho de Historia: ");
+    const trabalho3_historia: number = readline.questionFloat("Digite a nota do terceiro trabalho de Historia: ");
 
     const media_historia: number = (
         atv1_historia +
@@ -100,14 +100,14 @@ const media_matematica: number = ( //calcular a media somando as notas e dividin
     ) / 8;
 
 //quimica
-    const atv1_quimica: number = readline.questionFloat("Digite a nota da primeira atividade de Química: ");
-    const atv2_quimica: number = readline.questionFloat("Digite a nota da segunda atividade de Química: ");
-    const atv3_quimica: number = readline.questionFloat("Digite a nota da terceira atividade de Química: ");
-    const prova1_quimica: number = readline.questionFloat("Digite a nota da primeira prova de Química: ");
-    const prova2_quimica: number = readline.questionFloat("Digite a nota da segunda prova de Química: ");
-    const trabalho1_quimica: number = readline.questionFloat("Digite a nota do primeiro trabalho de Química: ");
-    const trabalho2_quimica: number = readline.questionFloat("Digite a nota do segundo trabalho de Química: ");
-    const trabalho3_quimica: number = readline.questionFloat("Digite a nota do terceiro trabalho de Química: ");
+    const atv1_quimica: number = readline.questionFloat("Digite a nota da primeira atividade de Quimica: ");
+    const atv2_quimica: number = readline.questionFloat("Digite a nota da segunda atividade de Quimica: ");
+    const atv3_quimica: number = readline.questionFloat("Digite a nota da terceira atividade de Quimica: ");
+    const prova1_quimica: number = readline.questionFloat("Digite a nota da primeira prova de Quimica: ");
+    const prova2_quimica: number = readline.questionFloat("Digite a nota da segunda prova de Quimica: ");
+    const trabalho1_quimica: number = readline.questionFloat("Digite a nota do primeiro trabalho de Quimica: ");
+    const trabalho2_quimica: number = readline.questionFloat("Digite a nota do segundo trabalho de Quimica: ");
+    const trabalho3_quimica: number = readline.questionFloat("Digite a nota do terceiro trabalho de Quimica: ");
 
     const media_quimica: number = (
         atv1_quimica +
@@ -157,11 +157,11 @@ FALTAS: ${faltas}
 =================================================
 
 MÉDIAS POR DISCIPLINA:
-- Matemática: ${media_matematica.toFixed(2)}
-- Português: ${media_portugues.toFixed(2)}
+- Matematica: ${media_matematica.toFixed(2)}
+- Portugues: ${media_portugues.toFixed(2)}
 - Geografia: ${media_geografia.toFixed(2)}
-- História: ${media_historia.toFixed(2)}
-- Química: ${media_quimica.toFixed(2)}
+- Historia: ${media_historia.toFixed(2)}
+- Quimica: ${media_quimica.toFixed(2)}
 `;
 
 const nomeArquivoTxt = `boletim_${nome.replace(/\s/g, '_')}.txt`;
