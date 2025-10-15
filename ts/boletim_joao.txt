@@ -1,0 +1,13 @@
+
+=================================================
+BOLETIM DO ALUNO: joao (Série: 9)
+STATUS FINAL: REPROVADO POR NOTA
+FALTAS: 9
+=================================================
+
+MÉDIAS POR DISCIPLINA:
+- Matemática: 2.88
+- Português: 32.25
+- Geografia: 3.00
+- História: 2.25
+- Química: 15.00
