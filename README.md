@@ -1,3 +1,8 @@
+GRUPO:
+Joao Miguel Santos RA: 2511914
+Henrique Cordeiro RA:2507350
+Mysael Chuff RA:2509494
+Emanuel Blummer RA:2409398
 # 📘 Sistema de Boletim Escolar – TypeScript
 
 Este projeto é uma aplicação simples em **TypeScript** que permite registrar informações de alunos, calcular suas médias e gerar um **boletim** em formato `.txt`, além de armazenar os dados em um arquivo `.csv`.
